@@ -14,12 +14,11 @@ Current_Version of the Pipeline will be as follows
 2) Calculate Degree Distributions
   Two versions
   -purity_Epsilon_Gen_degree: takes in only Dist_Form.txt, output a csv named Neighborhoods in a folder that has run details in a super folder named Epsilon_Degree_Only
-  -purity_Epsilon_Gen_degree_homog: takes in only Dist_Form.txt, output a csv named Neighborhoods in a folder that has run details as well as a homogeneity.csv file as well in a super folder named Epsilon_Degree_Homog
+  -
 
 3) Plot Degree Distribution
     -Two versions
     -plots degree_dist_: Takes in Neighborhoods.csv in a folder named after run details in Epsilon_Degree_Only, plots degree distribution. Takes in number of bins to logbinns 
 
-4) Plot homogeneity plots
 
 This Readme will be updated in the future as well.
