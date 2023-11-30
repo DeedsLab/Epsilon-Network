@@ -26,6 +26,7 @@ Current_Version of the Pipeline will be as follows
 5) Giant Component Analysis
    
 6) Betweenness Centrality
+   - purity_Epsilon_Gen_degree: takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output a csv named Neighborhoods and in a folder that has run details in a super folder named Epsilon_Degree_Betweenesss
 
 
 This Readme will be updated in the future as well.
