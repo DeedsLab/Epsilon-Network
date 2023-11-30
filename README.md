@@ -17,16 +17,14 @@ Current_Version of the Pipeline will be as follows
 
   - purity_Epsilon_Gen_degree: takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output a csv named Neighborhoods in a folder that has run details in a super folder named Epsilon_Degree_Only
   
-  - purity_Epsilon_Gen_degree_specific takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output a csv named Neighborhoods in a folder that has run details in a super folder named Epsilon_Degree_Only
-
-4) Plot Degree Distribution
-    - Two versions
-    - plots degree_dist_ Takes in Neighborhoods.csv in a folder named after run details in Epsilon_Degree_Only, plots degree distribution. Takes in number of bins to logbinns
+  - purity_Epsilon_Gen_degree_specific takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output a csv named Neighborhoods in a folder that has run details in a super folder named Epsilon_Single_Degree
+  -  plots_degree_dist: Takes in Neighborhoods.csv in a folder named after run details in Epsilon_Degree_Only, plots degree distribution. Takes in number of bins to logbinns
    
 5) Giant Component Analysis
    
 6) Betweenness Centrality
-   - purity_Epsilon_Gen_degree: takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output a csv named Neighborhoods and in a folder that has run details in a super folder named Epsilon_Degree_Betweenesss
+   - purity_Epsilon_Gen_degree: takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output csvs named Neighborhoods and Centrality and in a folder that has run details in a super folder named Epsilon_Degree_BC
+   - purity_Epsilon_Gen_BC_specific: takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output csvs named Neighborhoods and Centrality and in a folder that has run details in a super folder named Epsilon_Single_BC
 
 
 This Readme will be updated in the future as well.
