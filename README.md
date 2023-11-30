@@ -7,7 +7,8 @@ Current_Version of the Pipeline will be as follows
 
 1) Generate Distance Matrixes
    - Both python and c++ versions of the code will be uploaded but the format should result in a .txt file with the appending of Dist_Form.txt,
-   - Prefer to use rang_Cac
+   - Prefer to use range_distance_calculator.cpp
+   - After compiling, introduce name of CellxGene Matrix, smallest index, and largest index to run code.
    
    - Each file will have 3 columns but with no header. First Column represents out edges Second column represents in-edges. As distances matrixes, mirrored duplicates are expected. Dataset_Name as well as step along scRNA-seq should be noted
 
@@ -20,8 +21,10 @@ Current_Version of the Pipeline will be as follows
    - plots_degree_dist: Takes in Neighborhoods.csv in a folder named after run details in Epsilon_Degree_Only, plots degree distribution. Takes in number of bins to logbinns
    
 5) Giant Component Analysis
+   - just_GC.cpp: takeskes in only Dist_Form.txt(Name of file without suffix), numbers min, max and steps for epsilons tested all as in line terminal arguments. as wel as name out outfile. Output a csv with first column epsilon and second column size of giant component
+   - purity_Epsilon_Gen_plots_GCC.py: plots above CSV file generates (Name of file is taken in as prompted input)
    
-6) Betweenness Centrality
+7) Betweenness Centrality
    - purity_Epsilon_Gen_degree: takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output csvs named Neighborhoods and Centrality and in a folder that has run details in a super folder named Epsilon_Degree_BC
    - purity_Epsilon_Gen_BC_specific: takes in only Dist_Form.txt(Name of file without suffix), and prompts for min, max and steps for epsilon, output csvs named Neighborhoods and Centrality and in a folder that has run details in a super folder named Epsilon_Single_BC
 
